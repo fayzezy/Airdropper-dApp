@@ -46,9 +46,9 @@ App = {
   initContracts: async () => {
     App.networkId = await App.web3.eth.net.getId()
 
-    if (App.networkId !== 3) {
+    if (App.networkId !== 137) {
       $("#submit").attr("disabled", true)
-      alert("Please switch to Binance Smart Chain");
+      alert("Please switch to Polygon!");
       return
     }
 
@@ -323,11 +323,11 @@ App = {
           id: 42
         }
         break
-      case 56:
+      case 137:
         return {
-          network: "Binance Smart Chain",
-          url: "https://bscscan.com/",
-          id: 56
+          network: "Polygon Mainnet",
+          url: "https://polygonscan.com/",
+          id: 137
         }
         break
       default:
