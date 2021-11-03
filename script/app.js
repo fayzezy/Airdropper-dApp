@@ -228,7 +228,7 @@ App = {
         "type": "function"
       }]
 
-    App.airdropAddress = "0x2cd0e5f101114d3cccdf86ba300076140540e0a6" // BSC
+    App.airdropAddress = "0x0450ac02a9F0593aA84F4760256Db868e8D7B7A7" // Polygon
     App.airdropInstance = new App.web3.eth.Contract(App.airdropABI, App.airdropAddress)
 
     return App.initVariables()
