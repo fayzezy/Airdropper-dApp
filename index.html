@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/app.css">
 
-    <title>Send ERC20 tokens to many users at once</title>
+    <title>Airdrop ERC-20 tokens on Polygon</title>
 </head>
 <body>
 
     <div class="container p-5">
-        <h1 class="text-center mb-5">Token mass sending</h1>
+        <h1 class="text-center mb-5">Polygon ERC-20 Airdropper</h1>
         <div class="row mb-5">
             <code class="col-lg-12">
                 <p class="text-dark">Your wallet: <b id="user-wallet"></b></p>
@@ -27,8 +27,8 @@
         <form onsubmit="App.startAirdrop(); return false" class="row mb-5">
             <div class="col-sm-6">
                 <div class="form-group">
-                    <label class="h3" for="receivers">ERC20 token address</label>
-                    <input class="form-control" id="token-address" value="0x630d98424efe0ea27fb1b3ab7741907dffeaad78" required/>
+                    <label class="h3" for="receivers">Token smart contract address</label>
+                    <input class="form-control" id="token-address" value="0x64bc251b0eb9200948c9155573cd459c5e17c6a4" required/>
                 </div>
             </div>
             <div class="col-sm-6"></div>
